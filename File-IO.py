@@ -90,6 +90,6 @@ except Exception as e:
     print(f"Terjadi kesalahan yang tidak terduga: {e}")
 else:
     print("\nHasil berhasil ditambahkan ke CSV.")
-    print("[ELSE] Seluruh operasi I/O dan perhitungan selesai dengan sukses!")
+    print("Seluruh operasi I/O dan perhitungan selesai dengan sukses!")
 finally:
-    print("[FINALLY] Program selesai dijalankan. Sesi ditutup.")
+    print("Program selesai dijalankan. Sesi ditutup.")
