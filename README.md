@@ -11,7 +11,8 @@
 
 ### Base Theory
 <div align="justify">
-    In programming, files permanently store data for future use, and Python handles this through the open() function using modes like "r" (read), "w" (write), or "a" (append) alongside methods such as read(), readlines(), and write(). Additionally, Python includes a dedicated csv module to easily process CSV files, a common format for tabular data. Mastering these file operations is essential because it allows programs to efficiently manage large datasets and organize processed results structurally.
+    In programming, files permanently store data for future use, and Python handles this through the open() function using modes like "r" (read), "w" (write), or "a" (append) alongside methods such as read(), readlines(), and write(). Additionally, Python includes a dedicated csv module to easily process CSV files, a common format for tabular data. Mastering these file operations is essential because it allows programs to efficiently manage large datasets and organize processed results structurally.<br>
+    Python uses try-except exception handling to manage syntax or runtime errors without crashing the program. Code that might fail goes into the try block, while the except block handles the error. Additionally, the else block runs only if no errors occur, and the finally block always executes regardless of the outcome, making the program more robust and user-friendly.
 </div>
 
 #### Assignment
