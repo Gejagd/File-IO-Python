@@ -9,7 +9,7 @@ file_name = "data_nilai.csv"
 Data dummy
 """
 data_mahasiswa = [
-    ["Nama", "Nilai"],  # Header
+    ["Nama", "Nilai"],
     ["Andi", 85],
     ["Budi", 90],
     ["Cindy", 78],
@@ -89,9 +89,7 @@ except IOError as e:
 except Exception as e:
     print(f"Terjadi kesalahan yang tidak terduga: {e}")
 else:
-    # Blok ini HANYA dieksekusi jika semua baris kode di dalam blok 'try' berhasil tanpa error
     print("\nHasil berhasil ditambahkan ke CSV.")
     print("[ELSE] Seluruh operasi I/O dan perhitungan selesai dengan sukses!")
 finally:
-    # Blok ini AKAN SELALU dieksekusi, baik ada error maupun tidak
     print("[FINALLY] Program selesai dijalankan. Sesi ditutup.")
